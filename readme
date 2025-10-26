@@ -25,32 +25,3 @@ O que é necessário para instalar o software? Liste as dependências que precis
 * [Python](https://www.python.org/) (v3.10+)
 * ...
 
-### 🔧 Instalação
-
-Um guia passo a passo sobre como instalar o projeto.
-
-1.  Clone o repositório:
-    sh
-    git clone [https://github.com/seu-usuario/nome-do-projeto.git](https://github.com/seu-usuario/nome-do-projeto.git)
-    
-2.  Entre no diretório do projeto:
-    sh
-    cd nome-do-projeto
-    
-3.  Instale as dependências (exemplo para Node.js):
-    sh
-    npm install
-    
-4.  (Se necessário) Configure as variáveis de ambiente. Crie um arquivo .env baseado no .env.example:
-    sh
-    cp .env.example .env
-    
-    Depois, edite o arquivo .env com suas chaves de API, senhas de banco de dados, etc.
-
-## 🏃 Como Usar
-
-Instruções e exemplos de como usar o projeto depois de instalado.
-
-Para iniciar o servidor de desenvolvimento (exemplo):
-```sh
-npm run dev um exemplo
