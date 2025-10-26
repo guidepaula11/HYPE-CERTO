@@ -1,17 +1,31 @@
-# Nome do Projeto
+# HypeCerto
 
-Uma breve descrição (1-2 frases) do que o projeto faz e qual problema ele resolve.
+[cite_start]O HypeCerto é um aplicativo de automação de redes sociais focado em pequenos empreendedores, empresas e criadores de conteúdo[cite: 7]. [cite_start]O objetivo é oferecer uma plataforma acessível, escalável e aderente à LGPD para agendamento inteligente de postagens, análise de métricas e sugestões baseadas em IA[cite: 8].
 
 ## 🌟 Sobre o Projeto
 
-(Opcional, mas recomendado)
-Fale um pouco mais sobre o projeto. Por que você o criou? Qual foi sua motivação? Que tecnologias foram usadas?
+[cite_start]O projeto foi criado para resolver as dificuldades que pequenos empreendedores e autônomos enfrentam [cite: 59, 62][cite_start], como a falta de tempo, conhecimento técnico e o alto custo das ferramentas de gerenciamento de redes sociais existentes[cite: 12, 16, 60].
+
+[cite_start]A solução busca democratizar o acesso ao marketing digital [cite: 35, 61][cite_start], oferecendo uma plataforma intuitiva e adaptada ao público brasileiro [cite: 17, 67][cite_start], com foco inicial no mercado goiano[cite: 14, 71].
 
 ### ✨ Funcionalidades
 
-* Funcionalidade A: Descreve o que ela faz.
-* Funcionalidade B: Descreve o que ela faz.
-* ...
+* [cite_start]**Agendamento Inteligente:** Permite o agendamento de postagens [cite: 8] [cite_start]e sugere os melhores horários e ideias de conteúdo via IA[cite: 242].
+* [cite_start]**Análise de Métricas:** Coleta e processa métricas de engajamento e alcance [cite: 30, 238][cite_start], apresentando em um painel de desempenho simplificado[cite: 65, 116].
+* [cite_start]**Sugestões de Conteúdo:** Geração de sugestões de conteúdo baseadas em Inteligência Artificial para otimizar a estratégia do usuário[cite: 8, 66].
+* [cite_start]**Gestão Multi-plataforma:** Conexão segura com APIs de diversas redes sociais (ex: Facebook, Instagram, LinkedIn, YouTube)[cite: 29, 168, 240].
+* [cite_start]**Autenticação:** Cadastro e login de usuários, com suporte a OAuth2[cite: 28, 87].
+* [cite_start]**Visão de Calendário:** Permite visualizar postagens agendadas e passadas em formato de lista ou calendário[cite: 96].
+
+### 🛠️ Stack Tecnológica
+
+* [cite_start]**Frontend:** Next.js (React + TypeScript) [cite: 20]
+* [cite_start]**Backend:** Node.js com NestJS [cite: 20]
+* [cite_start]**Banco de Dados:** PostgreSQL [cite: 22]
+* [cite_start]**Cache e Filas:** Redis [cite: 22]
+* [cite_start]**Armazenamento de Mídia:** Amazon S3 [cite: 23]
+* [cite_start]**Deploy:** AWS (utilizando RDS, ElastiCache e CloudFront) [cite: 24]
+* [cite_start]**CI/CD:** GitHub Actions [cite: 25]
 
 ## 🚀 Começando
 
@@ -19,9 +33,8 @@ Estas instruções guiarão você sobre como obter uma cópia do projeto em func
 
 ### 📋 Pré-requisitos
 
-O que é necessário para instalar o software? Liste as dependências que precisam ser instaladas manualmente.
+[cite_start]O que é necessário para instalar o software com base na arquitetura definida[cite: 20, 22]:
 
 * [Node.js](https://nodejs.org/) (v18.x ou superior)
-* [Python](https://www.python.org/) (v3.10+)
-* ...
-
+* [PostgreSQL](https://www.postgresql.org/) (Instância local ou remota)
+* [Redis](https://redis.io/) (Instância local ou remota)
